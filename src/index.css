@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: -webkit-linear-gradient(left, #2F2727, #1a82f7); */
+
+  background-image: -webkit-linear-gradient( left , #e47a4100, #0000ffc8);
+  background-size: cover;
+
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.section {
+  margin: 20px 12px;
+  padding: 1rem;
 }

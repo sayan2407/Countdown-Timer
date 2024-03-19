@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#start-countdown {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(55, 123, 182);
+    padding: 20px 16px;
+    cursor: pointer;
+}
+
+.count-section {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+@media only screen and (max-width: 600px) {
+       .count-section {
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+}
